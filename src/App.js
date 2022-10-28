@@ -1,11 +1,12 @@
 import './App.css';
+import Body from './components/body';
+import AboutMe from './pages/aboutMe';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Hi, this is SB!
-      </header>
+      <Body/>
+      <AboutMe/>
     </div>
   );
 }
